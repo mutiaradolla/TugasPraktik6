@@ -1,0 +1,17 @@
+package Latihan4;
+
+public class TestMobil {
+
+    public static void main(String[] args) {
+        Mobil Mobil1 = new Mobil();
+        Mobil1.jumlahRoda = 4;
+        System.out.println("Mobil memiliki "+Mobil1.jumlahRoda+" roda");
+        int jumlahmesin = Mobil1.mesin;
+        System.out.println("Mobil memiliki "+jumlahmesin+" mesin");
+        Mobil1.maju();
+        Mobil1.belok();
+        Mobil1.mundur();
+        Mobil1.ngerem();
+       
+    }
+}
